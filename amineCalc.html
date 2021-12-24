@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<script type="text/javascript" src="amineCalc.js"></script>
+</head>
+<body>
+<div id="amine_calc">    
+	<div class="calc_header">
+  	<h2>Preliminary Amine Plant Sizing Calculator</h2>
+	</div>
+	<div class="calc_body">
+  
+    <label class="calc_label" for="amine_type">Amine Solution Type:			</label><br/>
+    <select id="amine_type" width=100px;>
+        <option value = ""></option>
+        <option value="DEA">DEA</option>
+        <option value="DGA">DGA</option>
+        <option value="MDEA">MDEA</option> 
+        <option value="MEA">MEA</option>
+    </select>
+    <br/>
+    <label class="calc_label" for="flowrate">Flowrate of Gas to be Treated (MMSCFD)</label><br/>
+    <input id = "flowrate" type = "number"><br/>
+    <label class="calc_label" for="conc">Feed Gas CO2 Concentration (Mole %)</label><br/>
+    <input id = "conc" type = "number"><br/>
+    <label class="calc_label" for="amine_conc">Amine Solution Concentration (Mass %)</label><br/>
+    <input id = "amine_conc" type = "number"><br/>
+    <button class="calc_button" type="button" onclick=amineCalc()>Calculate</button>
+    <div id="amine_output" class="calc_output">
+    </div>
+  </div></div>
+
+</body>
+</html>

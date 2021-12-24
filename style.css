@@ -1,0 +1,59 @@
+
+  .calc_header{
+    background-color:black;
+    padding-top:25px;
+    padding-bottom:25px;
+    
+  }
+  .calc_header h2{
+    color:white!important;
+    padding-top:10px;
+  }
+  
+  .calc_body{
+    margin:auto;
+    padding-top:30px;
+  }
+	#amine_calc{
+  background-color:gainsboro;
+  margin:auto;
+  width:37vw;
+  text-align:center;
+    
+  } 
+  .calc_button{
+    font-size:20px;
+    padding:10px;
+    color:black;
+  margin-bottom:15px;
+  }
+  label.calc_label{
+    font-size:18px;
+    font-weight:600;
+    color:black;
+    padding:15px;
+    font-family:'Questrial', 'Helvetica';
+  }
+  .calc_output h3{
+    font-size:18px;
+    font-weight:600;
+    color:black;
+    padding-top:15px;
+    font-family:'Questrial', 'Helvetica';
+  }
+  #amine_calc input, #amine_calc select{
+    width:200px;
+    margin:10px;
+    font-size:25px;
+  }
+  @media screen and (max-width:900px){
+    #amine_calc{
+      width:60vw;
+    }
+  }
+  @media screen and (max-width:600px){
+    #amine_calc{
+    	width:80vw;
+    }
+  }
+
